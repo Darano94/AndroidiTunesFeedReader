@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuFree"
+        android:title="Alle kostenlose Apps" />
+    <item
+        android:id="@+id/mnuPaid"
+        android:title="Alle kostenpflichtige Apps" />
+    <group
+        android:id="@+id/mnugrp"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnuTop10"
+            android:checked="true"
+            android:title="Top 10" />
+        <item
+            android:id="@+id/mnuTop25"
+            android:title="Top 25"/>
+    </group>
+</menu>
