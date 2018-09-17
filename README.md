@@ -1,2 +1,2 @@
-# AndroidiTunesFeedReader
-RSS Feed reader - Android app. Minimu SDK: 17
+# Android iTunesFeedReader
+RSS Feed reader - Android app. Minimum SDK: 17
